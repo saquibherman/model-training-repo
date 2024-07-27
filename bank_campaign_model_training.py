@@ -16,7 +16,6 @@ from sklearn.pipeline import make_pipeline
 storage_client = storage.Client()
 bucket = storage_client.bucket("saq-ml-ops")
 
-
 def load_data(path):
     return pd.read_csv(path, sep=";")
 

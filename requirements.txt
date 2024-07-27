@@ -9,3 +9,4 @@ google-cloud-storage
 google-cloud-bigquery
 dill
 numpy==1.26.4
+imblearn
